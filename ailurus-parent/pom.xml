@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.noear</groupId>
         <artifactId>solon-parent</artifactId>
-        <version>2.6.3</version>
+        <version>2.7.0</version>
         <relativePath />
     </parent>
 
@@ -49,11 +49,18 @@
         <hikariCP.version>5.1.0</hikariCP.version>
         <mysql.version>8.0.21</mysql.version>
 
+        <mysql.version>8.0.21</mysql.version>
+
 
     </properties>
 
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>solon.cache.redisson</artifactId>
+        </dependency>
         <!-- ailurus -->
 
         <!--  xxl-job   -->
